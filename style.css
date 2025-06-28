@@ -1,0 +1,477 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+    position: sticky;
+        top:0;
+        background-color: white;
+
+}
+.head__s01
+{
+    display: none;
+}
+.head__s1 img
+
+{
+    width: 188px;
+}
+.head__s2
+{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+   
+}
+.head__s2 p{
+    padding: 10px;
+     cursor: pointer;
+}
+
+.head__s2 p:hover 
+{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.head__s3
+{
+   display: flex;
+    gap: 15px;
+    align-items: center;
+   
+   
+   
+    
+}
+.head__top
+    {
+        padding: 5px;
+        
+    }
+.head__top:hover
+{
+   background-color: #f2f2f2;
+   border-radius: 25px;
+}
+
+
+
+.head__top img
+{
+   width: 16px;
+   height: 16px;
+ 
+}
+ .s5
+{
+    display: flex;
+    gap: 4px;
+    padding: 2px 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    background: none;
+    border:none;
+     cursor: pointer;
+   
+    
+}
+
+ .c
+{
+    cursor: pointer;
+}
+.head__top p{
+    font-weight: bold;
+    font-size: 16px;
+   
+    padding-left: 5px;
+}
+
+.head__s3  .c
+{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.top
+{
+    margin: 20px;
+    text-align: center;
+}
+.top__1
+{
+    font-size: 48px;
+}
+.top__2
+{
+    display: flex;
+   
+    justify-content: center;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+   
+}
+.top__2 div
+{
+  display: flex;
+
+  
+  gap: 5px;
+  margin: 25px;
+  cursor: pointer;
+}
+.top__2 img
+{
+    width: 16px;
+    height: 16px;
+}
+.img1
+{
+   border-bottom: solid black 2px;
+}
+.hov:hover
+{
+    border-bottom: solid black 2px;
+}
+.top__3
+{
+  
+  display: flex;
+ 
+ align-items: center;
+  border: solid black 2px;
+  width: 50%;
+  margin: 0% 25% 0% 25%;
+  border-radius: 30px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+       
+}
+.top__4
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+   
+    gap: 5px;
+    flex-grow: 1;
+   
+   
+    
+}
+.top__4 img{
+    width: 16px;
+    height: 16px;
+}
+ .top__4 input
+{
+    width:300px;
+   font-size: 16px;
+    border: none;
+}
+.top__4 input:focus
+{
+    outline: none;
+}
+ .top__3 h3{
+    background-color:#09cc84 ;
+    border: solid #059862 2px;
+    margin: 0px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.top__3 h3:hover
+{
+ background-color: #8aebc7;
+ 
+}
+.center__img
+{
+      display: flex;
+      background-color:#FF5D5D ;
+      
+      margin: 50px;
+      padding: 30px;
+      gap: 20px;
+      border-radius: 20px;
+   
+}
+.center__img1
+{
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.border
+{
+    margin: 0px;
+    width: 1px;
+    height: 450px;
+    
+    background-color:#000000;
+}
+.center__para
+{
+    
+   padding:50px 10px;
+}
+.para1
+{
+    font-weight: 900;
+    font-size: 60px;
+}
+.para2
+{
+    margin-top: 25px;
+    
+}
+.para3
+{
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+}
+.card
+{
+    margin: 50px;
+    
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.card p{
+    margin-bottom: 20px;
+}
+.card__img
+{
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+     
+   
+   
+}
+.card1
+{
+
+   
+  flex-grow: 1;
+  flex-basis: 20%;
+  margin: 5px;
+    
+    
+}
+.card__img img
+{  
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+   
+    
+ 
+    
+}
+
+
+.card__img1_p
+{
+ position:relative;
+ font-size: 32px;
+ font-weight: 900;
+ width: fit-content;
+ color: white;
+ left: 20px;
+ bottom:50px;
+}
+.rating
+{
+margin: 20px;
+}
+
+.rating0
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.rating1
+{
+  flex-grow: 1;
+  flex-basis: 20%;
+  margin: 10px;
+ 
+}
+.p
+{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.rating1 img
+{
+  width: 100%;
+  height:65%;
+  border-radius: 10px;
+}
+.rating1 p
+{
+  margin: 0px;
+}
+.footer
+{
+    margin: 20px;
+    
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+.footer__top
+{
+    margin: 20px;
+}
+
+.footer1
+{
+    display: flex;
+    
+    align-items: center;
+    margin: 20px;
+    
+}
+.top__footer img
+{
+    width: 25px;
+    height: 25px;
+}
+.footer2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.top__footer{
+    
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.top__footer p{
+    margin: 0px;
+}
+.bottom__footer
+{
+   margin: 4px;
+  
+}
+.bottom__footer i
+{
+    margin: 4px;
+}
+
+
+@media screen and (max-width:600px)
+ {  
+    body {
+        font-size: 16px
+
+        }
+    .head
+    {
+        
+     }
+    .head__s01
+    {
+        display: block;
+    }
+   .head__s2
+   {
+    display: none;
+   }
+   .top__1 h1
+   {
+    font-size: 48px;
+   }
+   .top__2 
+   {
+    
+   justify-content: start;
+   font-size: medium;
+
+   }
+   .top__2 div
+   {
+
+   }
+   .top__3
+   {
+    display: block;
+    padding: 20px;
+    width:80%;
+    margin:10px;
+   }
+   .top__3 h3
+
+   {
+    text-align: center;
+   }
+   .center__img{
+    margin: 30px 10px;
+    display: block;
+    width: 80%;
+    height: 100%;
+    
+    
+   }
+
+   .center__img img
+   {
+    width:80%;
+   }
+   .border
+   {
+    display: none;
+   }
+   .card1
+   {
+    flex-basis: 40%;
+   }
+   .rating1
+   {
+    flex-basis: 45%;
+   }
+   .footer
+   {
+    margin-top: 100px;
+   }
+   
+}
+
+
+
+
+
+
